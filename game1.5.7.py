@@ -227,10 +227,6 @@ while not game_over:
 
         print("Your final sticker collection:", ", ".join(player_stickers))
 
-    # Example usage
-    #player_stickers = ["cat sticker", "dog sticker", "rabbit sticker", "Common Port sticker", "Trevor sticker"]
-    #sticker_swap_game(player_stickers)
-
 
 #-------
     def create_deck():
@@ -360,13 +356,6 @@ while not game_over:
                 print("Invalid input, please try again.")
 
         return hacking_skills
-
-    # Example usage in your main game
-    # hacking_skills = 0  # Assuming this is the initial value in your game
-    # hacking_skills = play_malware_detection_game(hacking_skills)
-
-    # Continue with the rest of your game...
-
 
 #-------
     def play_sunscreen_game():
