@@ -928,7 +928,7 @@ The current minigames are:
             print('You have successfully breached a high-security server.')
             current_location = 'server_room'
         elif choice == 'play CTF':
-            print('You had fun playing in the CTF and got second place. Playing in the CTF has unlocked new locations!')
+            print('You had fun playing in the CTF and got second place. [FLAG] Playing in the CTF has unlocked new locations!')
             hacking_skills += 1
             ctf_unlocked_locations = True
         elif choice == 'access server room':
